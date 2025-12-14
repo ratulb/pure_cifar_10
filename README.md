@@ -3,7 +3,7 @@
 A pure Python, minimal-dependency loader for the CIFAR-10 dataset. This package provides the CIFAR-10 images and labels as NumPy arrays, with automatic downloading and caching, requiring only `numpy` and `tqdm`.
 
 ## Features
-*   **Minimal Dependencies**: Only requires `numpy` and `tqdm`. No heavy machine learning frameworks like PyTorch or TensorFlow[citation:4].
+*   **Minimal Dependencies**: Only requires `numpy` and `tqdm`. No heavy machine learning frameworks like PyTorch or TensorFlow.
 *   **Automatic Handling**: Downloads the CIFAR-10 dataset automatically on first use and caches it locally.
 *   **Pure NumPy**: Returns standard `numpy.ndarray` objects for easy integration into any pipeline.
 *   **Progress Visualization**: Uses `tqdm` to show download and loading progress bars.
@@ -31,6 +31,10 @@ print(test_data.shape, test_labels.shape)
 
 (50000, 3, 32, 32) (50000,)
 (10000, 3, 32, 32) (10000,)
+
+classes = loader.class_names
+print(classes)
+('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 ```
 
 ## Data Format
