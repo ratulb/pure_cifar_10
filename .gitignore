@@ -1,0 +1,12 @@
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+.venv/
+pure_cifar_10.egg-info/
