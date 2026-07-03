@@ -15,7 +15,7 @@ Pure Python + NumPy — no PyTorch, no TensorFlow, no framework lock-in. Downloa
 - **Automatic Handling** — downloads the CIFAR-10 dataset automatically on first use and caches it locally.
 - **Pure NumPy** — returns standard `numpy.ndarray` objects for easy integration into any pipeline.
 - **Progress Visualization** — uses `tqdm` to show download and loading progress bars.
-- **Simple API** — mirrors the clean, functional style of the `mnist_datasets` package.
+- **Simple API** — mirrors the clean, functional style of the [`mnist_datasets`](https://ratulb.github.io/mnist_datasets/) package.
 
 ---
 
