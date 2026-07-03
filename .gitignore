@@ -10,3 +10,5 @@ __pycache__/
 .DS_Store
 .venv/
 pure_cifar_10.egg-info/
+vendor/
+Gemfile.lock

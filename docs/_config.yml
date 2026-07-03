@@ -1,0 +1,17 @@
+title: "CIFAR-10 Dataset Loader"
+description: "A pure Python, minimal-dependency loader for the CIFAR-10 dataset"
+author: rbsomeg
+baseurl: "/pure_cifar_10"
+url: "https://ratulb.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+show_excerpts: true
+header_pages: []
+
+exclude:
+  - README.md
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
